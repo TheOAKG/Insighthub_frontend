@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details | InsightHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="details-page-unique">
+    <nav>
+        <div class="logo">InsightHub</div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="auth.html">Login/Register</a>
+            <a href="submit.html">Submit Project</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+
+    <section class="hero-small">
+        <h1 id="detail-title">Loading Project...</h1>
+        <p>Full research details and academic findings.</p>
+    </section>
+
+    <main class="container">
+        <section class="project-info card-large">
+            <div class="meta-grid">
+                <div class="meta-item">
+                    <strong>Student</strong>
+                    <p id="detail-author">---</p>
+                </div>
+                <div class="meta-item">
+                    <strong>Department</strong>
+                    <p id="detail-dept">---</p>
+                </div>
+                <div class="meta-item">
+                    <strong>Year</strong>
+                    <p id="detail-year">---</p>
+                </div>
+                <div class="meta-item">
+                    <strong>Supervisor</strong>
+                    <p id="detail-supervisor">---</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="content-body">
+                <h3>Abstract & Description</h3>
+                <p id="detail-abstract">Fetching description from database...</p>
+            </div>
+
+            <div class="action-bar">
+                <a id="detail-file" href="#" target="_blank" class="btn">Download Full PDF</a>
+                <a id="detail-demo" href="#" target="_blank" class="btn secondary">View Demo / Video</a>
+                <button id="bookmark-btn" class="btn-outline">Save to Bookmarks</button>
+            </div>
+        </section>
+
+        <section class="engagement">
+            <h2>Discussion & Feedback</h2>
+            <div id="comment-list" class="comment-container">
+                </div>
+            
+            <form id="comment-form" class="styled-form">
+                <h3>Leave a Comment</h3>
+                <textarea id="comment-input" placeholder="What are your thoughts on this research?" required></textarea>
+                <button type="submit" class="btn-submit">Post Feedback</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>InsightHub</h4>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="auth.html">Login/Register</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Contact Support</h4>
+                <p>Email: research@InsightHub.com</p>
+                <p>Phone: +233 30 933 4567</p>
+                <p>Location: Aburi,Ghana</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 InsightHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="details.js"></script>
+</body>
+</html>

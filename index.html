@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsightHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav> 
+        <div class="logo">InsightHub</div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="auth.html">Login/Register</a>
+            <a href="submit.html" class="btn-primary">Submit Project</a>
+            <a href="details.html">View Projects</a>
+
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Academic Research Repository</h1>
+        <p>Explore and Share innovative university capstone projects.</p>
+
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="search by keywords or technology">
+
+            <select id="filter-dept">
+                <option value="">All Departments</option>
+                <option value="IT">Information Technology</option>
+                <option value="CS">Computer Science</option>
+                <option value="Ing">Engineering</option>
+
+            </select>
+
+            <button id="search-btn" class="btn-dark">Search</button>
+
+        </div>
+        
+    </section>
+
+
+    <section class="projects">
+        <h2>Project Repository</h2>
+        <div id="project-list" class="container">
+
+        </div>
+
+    </section>
+
+      <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>InsightHub</h4>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="auth.html">Login/Register</a>
+                <a href="submit.html">Submit Project</a>
+                <a href="details.html">View Projects</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Contact Support</h4>
+                <p>Email: research@InsightHub.com</p>
+                <p>Phone: +233 30 933 4567</p>
+                <p>Location: Aburi,Ghana</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 InsightHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InsightHub : Submit Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">InsightHub</div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="auth.html">Logout</a>
+
+        </div>
+    </nav>
+
+    <section class="auth-wrapper">
+        <div class="cards submission-card">
+            <h3>Submit your project</h3>
+            <form id="submission-form">
+                <input type="text" id="proj-title" placeholder="Project Title" required>
+
+                
+                <textarea id="proj-abstract" placeholder="Abstract / Description" rows="5"></textarea>
+
+
+                <select id="proj-dept" required>
+                    <option value="">Department</option>
+                    <option value="IT">Information Technology</option>
+                    <option value="CS">Computer Science</option>
+                    <option value="Ing">Engineering</option>
+
+                </select>
+
+                <input type="text" id="proj-supervisor" placeholder="Supervisor Name" required>
+                <input type="number" id="proj-year" placeholder=" Year of completion" required>
+                <input type="url" id="proj-file" placeholder="Link to PDF file (Google Drive)" required>
+                <input type="url" id="proj-demo" placeholder="Optional Demo Video Link" required>
+
+                <button type="submit" class="btn-primary">Upload Project</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+      <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>InsightHub</h4>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="auth.html">Login/Register</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Contact Support</h4>
+                <p>Email: research@InsightHub.com</p>
+                <p>Phone: +233 30 933 4567</p>
+                <p>Location: Aburi,Ghana</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 InsightHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
